@@ -11,7 +11,7 @@ function mostrarPopup() {
   setTimeout(mostrarPopup, 5000);
 
 // Mostrar el popup cada 30 segundos
-    setInterval(mostrarPopup, 30000);
+    // setInterval(mostrarPopup, 30000); desactivar
 
   // Obtener el botón de "cerrar"
 var botonCerrar = document.getElementById("cerrar-popup");

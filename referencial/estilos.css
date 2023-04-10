@@ -1,7 +1,6 @@
-h2,p{
+h2,p,h3{
     color: white;
 }
-
 .popup {
     position: fixed;
     top: 0;
@@ -12,14 +11,14 @@ h2,p{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999;
     visibility: hidden;
   }
   .popup-contenido {
     border-radius: 10px;
     position: relative;
     background-color: #3C4C6A;
-    padding: 80px;
+    padding: 45px;
+    height: 27rem;
   }
   
   .cerrar {
@@ -29,6 +28,7 @@ h2,p{
     border: none;
     background-color: transparent;
     font-size: 24px;
+    color: white;
     cursor: pointer;
   }
   
@@ -36,5 +36,26 @@ h2,p{
   .popup-activo {
     visibility: visible;
   }
+.megafono{
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+  margin-bottom: 20px;
+}
   
-  
+.nuevo{
+  background-color:#F23258;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 5px;
+  height: 33px;
+  width: 75px;
+  margin: auto;
+  display: block;
+}
+h3{
+  size: 1;
+}
